@@ -1,0 +1,39 @@
+<response version="1.3" xsi:noNamespaceSchemaLocation="https://aviationweather.gov/data/schema/metar1_3.xsd">
+  <request_index>1712418541</request_index>
+  <data_source name="metars"/>
+  <request type="retrieve"/>
+  <errors/>
+  <warnings/>
+  <time_taken_ms>88</time_taken_ms>
+  <data num_results="1">
+    <TAF>
+      <raw_text>PAFA 061120Z 0612/0718 04004KT P6SM FEW070 FM071300 05002KT P6SM VCSH OVC045</raw_text>
+      <station_id>PAFA</station_id>
+      <issue_time>2024-04-06T11:20:00Z</issue_time>
+      <bulletin_time>2024-04-06T11:20:00Z</bulletin_time>
+      <valid_time_from>2024-04-06T12:00:00Z</valid_time_from>
+      <valid_time_to>2024-04-07T18:00:00Z</valid_time_to>
+      <latitude>64.8031</latitude>
+      <longitude>-147.876</longitude>
+      <elevation_m>130</elevation_m>
+      <forecast>
+        <fcst_time_from>2024-04-06T12:00:00Z</fcst_time_from>
+        <fcst_time_to>2024-04-07T13:00:00Z</fcst_time_to>
+        <wind_dir_degrees>40</wind_dir_degrees>
+        <wind_speed_kt>4</wind_speed_kt>
+        <visibility_statute_mi>6+</visibility_statute_mi>
+        <sky_condition sky_cover="FEW" cloud_base_ft_agl="7000" />
+      </forecast>
+      <forecast>
+        <fcst_time_from>2024-04-07T13:00:00Z</fcst_time_from>
+        <fcst_time_to>2024-04-07T18:00:00Z</fcst_time_to>
+        <change_indicator>FM</change_indicator>
+        <wind_dir_degrees>50</wind_dir_degrees>
+        <wind_speed_kt>2</wind_speed_kt>
+        <visibility_statute_mi>6+</visibility_statute_mi>
+        <wx_string>VCSH</wx_string>
+        <sky_condition sky_cover="OVC" cloud_base_ft_agl="4500" />
+      </forecast>
+    </TAF>
+  </data>
+</response>

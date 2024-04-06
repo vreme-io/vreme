@@ -1,0 +1,34 @@
+<response version="1.3" xsi:noNamespaceSchemaLocation="https://aviationweather.gov/data/schema/metar1_3.xsd">
+  <request_index>1712418541</request_index>
+  <data_source name="metars"/>
+  <request type="retrieve"/>
+  <errors/>
+  <warnings/>
+  <time_taken_ms>88</time_taken_ms>
+  <data num_results="1">
+    <METAR>
+      <raw_text>PAFA 061453Z 06003KT 10SM FEW070 SCT120 BKN140 M06/M09 A2962 RMK AO2 SLP038 T10611089 58008</raw_text>
+      <station_id>PAFA</station_id>
+      <observation_time>2024-04-06T14:53:00Z</observation_time>
+      <latitude>64.8031</latitude>
+      <longitude>-147.876</longitude>
+      <temp_c>-6.1</temp_c>
+      <dewpoint_c>-8.9</dewpoint_c>
+      <wind_dir_degrees>60</wind_dir_degrees>
+      <wind_speed_kt>3</wind_speed_kt>
+      <visibility_statute_mi>10+</visibility_statute_mi>
+      <altim_in_hg>29.62</altim_in_hg>
+      <sea_level_pressure_mb>1003.8</sea_level_pressure_mb>
+      <quality_control_flags>
+        <auto_station>TRUE</auto_station>
+      </quality_control_flags>
+      <sky_condition sky_cover="FEW" cloud_base_ft_agl="7000"/>
+      <sky_condition sky_cover="SCT" cloud_base_ft_agl="12000"/>
+      <sky_condition sky_cover="BKN" cloud_base_ft_agl="14000"/>
+      <flight_category>VFR</flight_category>
+      <three_hr_pressure_tendency_mb>-0.8</three_hr_pressure_tendency_mb>
+      <metar_type>METAR</metar_type>
+      <elevation_m>130</elevation_m>
+    </METAR>
+  </data>
+</response>
